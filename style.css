@@ -1,0 +1,42 @@
+.my-body {
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.my-container {
+    height: 100vh;
+}
+
+.my-carousel {
+    height: 70%;
+}
+
+.cover-link {
+    color: #0AC0F0;
+    font-family: 'Open Sans', sans-serif;;
+}
+
+.cover-link:hover {
+    color: #93E8FF;
+}
+
+.display-2 {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.head-jake {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.cover-info {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.my-h5 {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.carousel-info {
+    font-family: 'Open Sans', sans-serif;
+}
