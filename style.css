@@ -25,6 +25,14 @@
     font-family: 'Roboto Mono', monospace;
 }
 
+@media screen and (max-width: 550px) {
+    .medium-display {
+        font-size: 50px;
+        padding-top: .5em;
+        padding-bottom: 1em;
+    }
+}
+
 .head-jake {
     font-family: 'Roboto Mono', monospace;
 }
@@ -39,4 +47,12 @@
 
 .carousel-info {
     font-family: 'Open Sans', sans-serif;
+}
+
+.big-button{
+    font-family: 'Roboto Mono', monospace;
+}
+
+.container {
+    height: 100vh;
 }
