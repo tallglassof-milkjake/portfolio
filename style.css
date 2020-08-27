@@ -56,3 +56,7 @@
 .container {
     height: 100vh;
 }
+
+.my-label {
+    font-family: 'Roboto Mono', monospace;
+}
