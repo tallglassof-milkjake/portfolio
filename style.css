@@ -31,6 +31,20 @@
         padding-top: .5em;
         padding-bottom: 1em;
     }
+
+    .medium-muted {
+        font-size: 42px;
+    }
+}
+
+@media screen and (max-width: 769px){
+    .its-about-me{
+        text-align: center !important;
+    }
+
+    .contact-button, .info-p-me{
+        justify-content: center;
+    }
 }
 
 .head-jake, .my-info-display {
@@ -65,3 +79,21 @@
     font-family: 'Roboto Mono', monospace;
 }
 
+.my-face {
+    
+}
+
+.footer {
+    flex-shrink: 0;
+}
+
+.wrapper {
+    min-height: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width:769px) {
+    .this-is, {
+        display: inline-block;
+    }
+}
