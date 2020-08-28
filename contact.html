@@ -1,92 +1,103 @@
 <!DOCTYPE html>
+
+<!--Setting the primary language-->
 <html lang="en">
-  
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="generator" content="Jekyll v4.1.1">
+ 
+  <!--Head section of page with meta tags, links to styles and bootstrap link-->
+  <head>
+    <meta charset="utf-8"> <!--Unicode character standard for web-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Jake Mackinlay</title>
 
-    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/cover/">
-
-    <!-- Bootstrap core CSS -->
+    <!--Bootstrap core CSS-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
-    <!-- Custom styles for this template -->
+    <!--Custom styles-->
     <link href="style.css" rel="stylesheet" type="text/css">
+    
+    <!--Google fonts links-->
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Mono:wght@300;400;500&display=swap" rel="stylesheet">
   </head>
   
+  <!--Body section of page-->
   <body class="text-center my-body">
-   <div class="container d-flex flex-column">
-    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-  <header class="masthead mb-auto">
-    <div class="inner">
-      <a href="index.html" class="text-decoration-none"><h3 class="masthead-brand head-jake text-light">Jake Mackinlay</h3></a>
-      <nav class="nav nav-masthead justify-content-center">
-        <a class="nav-link active cover-link" href="about.html">About</a>
-        <a class="nav-link cover-link" href="portfolio.html">Portfolio</a>
-        <a class="nav-link cover-link" href="contact.html">Contact</a>
-      </nav>
-    </div>
-  </header>
-
-  <div class="row">
-      <div class="col-3">
-
-      </div>
-      <div class="col-9 form-column text-left">
-        <form>
-            <div class="form-group">
-                <label for="exampleFormControlInput1" class="my-label text-light">Name</label>
-                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name">
-              </div>
-            <div class="form-group">
-              <label for="exampleFormControlInput1" class="my-label text-light">Email address</label>
-              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+   
+    <!--Again I was having the same problem with one container for some reason (probably "cover container" tag might be the issue?-->
+    <div class="container d-flex flex-column">
+      <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+  
+        <!--Header section-->
+        <header class="masthead mb-auto">
+          <div class="inner">
+            <a href="index.html" class="text-decoration-none">
+              <h3 class="masthead-brand head-jake text-light">Jake Mackinlay</h3>
+            </a>
+              <nav class="nav nav-masthead justify-content-center">
+                <a class="nav-link active cover-link" href="about.html">About</a>
+                <a class="nav-link cover-link" href="portfolio.html">Portfolio</a>
+                <a class="nav-link cover-link" href="contact.html">Contact</a>
+              </nav>
             </div>
-            <div class="form-group">
-              <label for="exampleFormControlTextarea1" class="my-label text-light">Message</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </header>
+
+
+          <!--Big display style heading to grab atttention and a little paragraph-->
+          <h2 class="display-4 my-info-display text-light pt-2 medium-display pb-3">Don't forget to say hello!</h2>
+          <p class="info-p text-light mb-4">Please feel free to connect with me through my social channels or send me a message here!</p>
+
+          <!--Contact form section-->
+          <div class="row justify-content-center">
+            <div class="col-sm-12 col-md-10 col-lg-8 form-column text-left justify-content-center">
+              <form>
+                <div class="form-group">
+                  <label for="exampleFormControlInput1" class="my-label text-light">Name</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlInput1" class="my-label text-light">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlTextarea1" class="my-label text-light">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+              </form>
+              <a href="#" class="btn btn-lg btn-outline-light mt-2 big-button">Send Message</a>
             </div>
-          </form>
-          <a href="#" class="btn btn-lg btn-outline-light mt-2 big-button">Send Message</a>
-      </div>
-  </div>
+          </div>
   
 
+          <!--Footer content with active links to social media pages-->
+          <footer class="mastfoot mt-auto mt-sm-5">
+            <div class="inner">
+              <a class="text-decoration-none pl-2 pr-2" href="https://www.facebook.com/profile.php?id=100009225831081" target="blank">
+                <span style="font-size: 48px; color: #3b5998;">
+                  <i class="fab fa-facebook"></i>       <!--Font awesome icon code-->
+                </span>
+              </a>
+              <a class="text-decoration-none pl-2 pr-2" href="https://github.com/tallglassof-milkjake" target="blank">
+                <span style="font-size: 48px; color: #fafafa;">
+                  <i class="fab fa-github"></i>         <!--Font awesome icon code-->
+                </span>
+              </a>
+              <a class="text-decoration-none pl-2 pr-2" href="https://www.linkedin.com/in/jake-mackinlay-1a5865157/" target="blank">
+                <span style="font-size: 48px; color: #0e76a8;">
+                  <i class="fab fa-linkedin"></i>       <!--Font awesome icon code-->
+                </span>
+              </a>
+              <p>Copyright &copy Jake Mackinlay 2020</p>
+            </div>
+          </footer>
+        </div>    
+      </div> 
 
-  <footer class="mastfoot mt-auto mt-sm-5">
-    <div class="inner">
-      <a class="text-decoration-none pl-2 pr-2" href="https://www.facebook.com/profile.php?id=100009225831081" target="blank">
-        <span style="font-size: 48px; color: #3b5998;">
-          <i class="fab fa-facebook"></i>
-        </span>
-      </a>
-      <a class="text-decoration-none pl-2 pr-2" href="https://github.com/tallglassof-milkjake" target="blank">
-        <span style="font-size: 48px; color: #fafafa;">
-          <i class="fab fa-github"></i>
-        </span>
-      </a>
-      <a class="text-decoration-none pl-2 pr-2" href="https://www.linkedin.com/in/jake-mackinlay-1a5865157/" target="blank">
-        <span style="font-size: 48px; color: #0e76a8;">
-          <i class="fab fa-linkedin"></i>
-        </span>
-      </a>
-      <p>Copyright &copy Jake Mackinlay 2020</p>
-    </div>
-  </footer>
-  </div>
-</div> 
-
-
-
-
-
-<script src="https://kit.fontawesome.com/b86300fd7f.js" crossorigin="anonymous"></script>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-</body>
+        <!--Font awesome link-->
+        <script src="https://kit.fontawesome.com/b86300fd7f.js" crossorigin="anonymous"></script>
+        <!--javascript bootstrap links-->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  
+  </body>
 </html>

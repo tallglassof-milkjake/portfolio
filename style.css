@@ -37,12 +37,20 @@
     }
 }
 
-@media screen and (max-width: 769px){
+@media screen and (max-width: 769px) {
     .its-about-me{
         text-align: center !important;
     }
 
-    .contact-button, .info-p-me{
+    .contact-button, .info-p-me {
+        justify-content: center;
+    }
+
+    .this-is {
+        display: inline-block;
+    }
+
+    .trouble-row {
         justify-content: center;
     }
 }
@@ -53,10 +61,6 @@
 
 .cover-info, .info-p-me, .info-p {
     font-family: 'Open Sans', sans-serif;
-}
-
-.info-p-me {
-
 }
 
 .my-h5 {
@@ -79,10 +83,6 @@
     font-family: 'Roboto Mono', monospace;
 }
 
-.my-face {
-    
-}
-
 .footer {
     flex-shrink: 0;
 }
@@ -92,8 +92,14 @@
     height: 100%;
 }
 
-@media screen and (max-width:769px) {
-    .this-is, {
-        display: inline-block;
-    }
+.row-spacer {
+    height: 5em;
+}
+
+.my-card {
+    background-color: black;
+}
+
+.my-card-title {
+    font-family: 'Roboto Mono', monospace;
 }

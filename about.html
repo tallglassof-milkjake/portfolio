@@ -1,100 +1,108 @@
 <!DOCTYPE html>
+
+<!--Setting the primary language-->
 <html lang="en">
-  
-<head>
+<!--Head section of the page including meta tags, links to styles and bootstrap etc.-->
+  <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="generator" content="Jekyll v4.1.1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Jake Mackinlay</title>
 
-    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/cover/">
-
-    <!-- Bootstrap core CSS -->
+    <!--Bootstrap core CSS-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
-    <!-- Custom styles for this template -->
+    <!--Custom styles-->
     <link href="style.css" rel="stylesheet" type="text/css">
+    
+    <!--Google fonts links-->
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Mono:wght@300;400;500&display=swap" rel="stylesheet">
   </head>
   
+  <!--Body section of the page-->
   <body class="text-center my-body">
-   
-  <div class="container d-flex w-100 h-100 p-3 mx-auto flex-column">
-    <header class="masthead mb-auto">
-      <div class="inner">
-        <a href="index.html" class="text-decoration-none"><h3 class="masthead-brand head-jake text-light">Jake Mackinlay</h3></a>
-        <nav class="nav nav-masthead justify-content-center">
-        <a class="nav-link active cover-link" href="about.html">About</a>
-        <a class="nav-link cover-link" href="portfolio.html">Portfolio</a>
-        <a class="nav-link cover-link" href="contact.html">Contact</a>
-        </nav>
-      </div>
-    </header>
-  <div class="wrapper">
-    <div class="main-container">
-      <div class="row">
-        <div class="col-lg-4 my-face-div">
-          <img class="img-fluid pt-2 pb-4 rounded my-face" alt="Jake on Drums" src="img/jake-drummer-Boy.jpg">
+  
+    <!--Main content section-->
+    <div class="container d-flex w-100 h-100 p-3 mx-auto flex-column">
+      
+      <!--Header section-->
+      <header class="masthead mb-auto">
+        <div class="inner">
+          <a href="index.html" class="text-decoration-none">
+            <h3 class="masthead-brand head-jake text-light">Jake Mackinlay</h3>
+          </a>
+            <nav class="nav nav-masthead justify-content-center">
+              <a class="nav-link active cover-link" href="about.html">About</a>
+              <a class="nav-link cover-link" href="portfolio.html">Portfolio</a>
+              <a class="nav-link cover-link" href="contact.html">Contact</a>
+            </nav>
+          </div>
+        </header>
+
+        <!--Main content wrapper for the about section-->
+        <div class="wrapper">
+          <div class="main-container">
+            <div class="row">
+              <div class="col-lg-4 my-face-div">
+                <img class="img-fluid pt-2 pb-4 rounded my-face" alt="Jake on Drums" src="img/jake-drummer-Boy.jpg">
+              </div>
+              <div class="col-lg-8 text-left its-about-me">
+                <div class="row">
+                  <h2 class="display-3 my-info-display text-light pt-2 medium-display">It's all about me</h2>
+                </div>
+                <div class="row trouble-row">
+                  <h4 class="display-4 text-muted text-light info-p-me pt-2 medium-muted">Well... <span class="this-is">At least this part is.</span></h4>
+                </div>
+                <div class="row">
+                  <p class="lead text-light info-p pt-2">But really, just a couple things about me.<br>I'm a Full Stack Developer with not a lot of experience at this point in time, 
+                    but in February I'll be very adept and keen to take on all projects. So bare with me as I learn the skills and knowledge I'll need to fill this big old section 
+                    of text. So get in touch, hit me on facebook or linkedin and check out my projects on github.
+                  </p>
+                </div>
+                <div class="row">
+                  <p class="lead text-light info-p pt-2">Some of my skills include the use of git and the command line, html and css semantics, bootstrap 4, refactoring and 
+                    elementary javascript at this stage but stay tuned! I'm constantly upskilling and always adding more skills to my coding repitoire.
+                  </p>
+                </div>
+                <div class="row contact-button">
+                  <p class="lead pt-2">
+                    <a href="contact.html" class="btn btn-lg btn-outline-light mt-5 big-button mb-md-5">Get in Touch!</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--Footer content including active links to social media pages-->
+          <footer class="footer mt-auto mt-sm-5 my-foot">
+            <div class="inner">
+              <a class="text-decoration-none pl-2 pr-2" href="https://www.facebook.com/profile.php?id=100009225831081" target="blank">
+                <span style="font-size: 48px; color: #3b5998;">
+                  <i class="fab fa-facebook"></i>       <!--Font Awesome icon code-->
+                </span>
+              </a>
+              <a class="text-decoration-none pl-2 pr-2" href="https://github.com/tallglassof-milkjake" target="blank">
+                <span style="font-size: 48px; color: #fafafa;">
+                  <i class="fab fa-github"></i>       <!--Font Awesome icon code-->
+                </span>
+              </a>
+              <a class="text-decoration-none pl-2 pr-2" href="https://www.linkedin.com/in/jake-mackinlay-1a5865157/" target="blank">
+                <span style="font-size: 48px; color: #0e76a8;">
+                  <i class="fab fa-linkedin"></i>       <!--Font Awesome icon code-->
+                </span>
+              </a>
+              <p>Copyright &copy Jake Mackinlay 2020</p> <!--copyright text-->
+            </div>
+          </footer>
         </div>
-        <div class="col-lg-8 text-left its-about-me">
-          <div class="row">
-            <h2 class="display-3 my-info-display text-light pt-2 medium-display">It's all about me</h2>
-          </div>
-          <div class="row ">
-            <h4 class="display-4 text-muted text-light info-p-me pt-2 medium-muted">Well...<span class="this-is">At least this part is.</span></h4>
-          </div>
-          <div class="row">
-            <p class="lead text-light info-p pt-2">But really, just a couple things about me.<br>I'm a Full Stack Developer with not a lot of experience at this point in time, 
-              but in February I'll be very adept and keen to take on all projects. So bare with me as I learn the skills and knowledge I'll need to fill this big old section 
-              of text. So get in touch, hit me on facebook or linkedin and check out my projects on github.
-            </p>
-          </div>
-          <div class="row">
-            <p class="lead text-light info-p pt-2">Some of my skills include the use of git and the command line, html and css semantics, bootstrap 4, refactoring and 
-              elementary javascript at this stage but stay tuned! I'm constantly upskilling and always adding more skills to my coding repitoire.
-            </p>
-          </div>
-          <div class="row contact-button">
-            <p class="lead pt-2">
-              <a href="contact.html" class="btn btn-lg btn-outline-light mt-5 big-button mb-md-5">Get in Touch!</a>
-            </p>
-          </div>
-        </div>
-      </div>
     </div>
 
-    <footer class="footer mt-auto mt-sm-5 my-foot">
-      <div class="inner">
-        <a class="text-decoration-none pl-2 pr-2" href="https://www.facebook.com/profile.php?id=100009225831081" target="blank">
-          <span style="font-size: 48px; color: #3b5998;">
-            <i class="fab fa-facebook"></i>
-          </span>
-        </a>
-        <a class="text-decoration-none pl-2 pr-2" href="https://github.com/tallglassof-milkjake" target="blank">
-          <span style="font-size: 48px; color: #fafafa;">
-            <i class="fab fa-github"></i>
-          </span>
-        </a>
-        <a class="text-decoration-none pl-2 pr-2" href="https://www.linkedin.com/in/jake-mackinlay-1a5865157/" target="blank">
-          <span style="font-size: 48px; color: #0e76a8;">
-            <i class="fab fa-linkedin"></i>
-          </span>
-        </a>
-        <p>Copyright &copy Jake Mackinlay 2020</p>
-      </div>
-    </footer>
-  </div>
-  </div>
-
-
-
-
-
-
-<script src="https://kit.fontawesome.com/b86300fd7f.js" crossorigin="anonymous"></script>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-</body>
+      <!--Font awesome link-->
+      <script src="https://kit.fontawesome.com/b86300fd7f.js" crossorigin="anonymous"></script>
+      <!--javascript bootstrap links-->
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  
+  </body>
 </html>
