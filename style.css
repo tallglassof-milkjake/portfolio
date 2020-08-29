@@ -55,6 +55,12 @@
     }
 }
 
+@media screen and (min-height: 900px) {
+    .my-big-viewport {
+        margin-bottom: 7em;
+    }
+}
+
 .head-jake, .my-info-display {
     font-family: 'Roboto Mono', monospace;
 }

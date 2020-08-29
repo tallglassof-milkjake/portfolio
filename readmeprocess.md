@@ -29,6 +29,7 @@
 
 * From this assignment I learnt the importance of mobile first design. I made the mistake a few times getting caught up in personalized styling and not testing responsiveness and running into issues I could've easily avoided. Live and learn. I have taken this on board and will implement it into work going forward.
 
+* Found some minor scaling issues vertically on my larger screens so fixed that last minute then re uploaded
 
 ### Please note all bio info and text components aren't perfect as I hadn't thought it through. I feel as though it could be better
 ### Also my social media accounts are not set up professionally yet, that is on the cards for the next week or 2
