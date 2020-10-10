@@ -129,10 +129,3 @@
     padding-left: 1em;
     padding-right: 1em;
 }
-
-/*@media screen and (max-width: 769px) {
-    .divider {
-        border-left: 2px solid white !important;
-        height: inherit !important;
-    }
-}*/
