@@ -7,7 +7,7 @@
   <head>
     <meta charset="utf-8"> <!--Unicode character standard for web-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Portfolio</title>
+    <title>Faster</title>
 
     <!--Bootstrap core CSS-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
@@ -24,7 +24,7 @@
   <body class="text-center my-body">
 
     <!--For some reason I run into layout issues when only using one container.. Maybe due to "cover-container" tag-->
-    <div class="container d-flex flex-column">
+    
       <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
   
         <!--Header section-->
@@ -41,32 +41,61 @@
             </div>
         </header>
 
-        <!--Big heading-->
-        <h2 class="display-3 my-info-display text-light pt-4 medium-display pb-3">My work</h2>
-        <p class="info-p text-light mb-4">Check out some of my work to date! I hope you like it!</p>
-        <hr class="pb-5">
+        <div class="wrapper">
+            <div class="main-container">
+                <div class="row">
+                    <div class="col text-center">
+                        <h1 class="display-1 text-light pt-4 pb-4">Faster</h1>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-md-5 text-left text-light">
+                        <p>This simple and easy to use intermittent fasting tracker app <b><em><a class="cover-link" href="https://tallglassof-milkjake.github.io/FastingTracker/"></a>Faster</em></b> was designed
+                        and developed as a part of our first project in the University of Adelaide and Trilogy Education
+                        Services Full Stack Coding Bootcamp.</p>
+                        <br>
+                        <p class="pb-5">For this project I was grouped with Nick and Arun. We tackled this project by first
+                        deciding on what we would develop and assigning tasks based on knowledge and experience. We then got to the
+                        task at hand and started developing.</p>
+                        <br>
+                        <img class="fast2 pt-5 pb-5" src="img/mobileMock.png" alt="mobile application">
+                        
+                    </div>
+                    <div class="col-md-5 text-light text-left">
+                        <img class="fast1 pb-5" src="img/watchMockFull.png" alt="smartwatch application">
+                        <br>
+                        <p>Starting with the wireframes designed by <a>Nick</a> using Adobe XD we got to laying out our HTML and
+                        root styles before getting in to the fun part.<b><em class="emph"> JQuery.</em></b></p>
+                        <br>
+                        <p>From here we implemented moment.js timers, API calls through rapidAPI.com and the nytAPI article viewer.</p>
+                        <br>
+                        <p>Keep an eye on this space as we're still working on this little application and are continually updating
+                        features and functionality with the hopes of pushing it to link with smart watches and fitness trackers
+                        to become an all-round fitness assistant. Like having a personal trainer in your pocket!</p>
+                        <br>
+                    </div>
+                </div>
+                <div class="row contact-button justify-content-center">
+                    <div class="col-2">
+                        <p class="lead pt-2">
+                            <a href="https://tallglassof-milkjake.github.io/FastingTracker/" class="btn btn-lg btn-outline-light mt-5 big-button my-big-button mb-md-5">Check It Out!</a>
+                        </p>
+                    </div>
+                    <div class="col1">
+                        <p class="lead pt-3 mt-5 text-light">Or, head to the repo!</p>
+                    </div>
+                    <div class="col-2">
+                        <p class="lead pt-2">
+                            <a href="https://github.com/tallglassof-milkjake/FastingTracker" class="btn btn-lg btn-outline-light mt-5 big-button my-big-button mb-md-5">Go To Repo!</a>
+                        </p>
+                    </div>
+                </div>
+            </div> 
+        </div>
 
-        <!--Individual project cards (will link to relevant pages once created)-->
-          <div id="fastDiv" class="row">
-            <a id="fastApp" class="" href="faster.html" target="blank">
-              <img class="d-block w-100" src="img/multiMockFast.png" alt="Faster - Intermittent Fasting Application">
-            </a>
-          </div>
-        
-          <div id="plannerDiv" class="row">
-            <a id="dayPlanner" class="" href="planner.html" target="blank">
-              <img class="d-block w-100" src="img/laptopPlanner.png" alt="Scheduler - A day planner">
-            </a>
-          </div>
-        
-          <div id="weatherDiv" class="row">
-            <a id="weatherApp" href="weather.html">
-              <img class="d-block w-100" src="img/weather.png" alt="SunnySideUp Weather - A weather App">
-            </a>
-          </div>
         
         <!--Footer content including active links to social media pages-->
-        <footer class="mastfoot mt-auto mt-sm-5">
+        <footer class="mastfoot mt-auto mt-sm-5 my-foot">
           <div class="inner">
             <a class="text-decoration-none pl-2 pr-2" href="https://www.facebook.com/profile.php?id=100009225831081" target="blank">
               <span style="font-size: 48px; color: #3b5998;">
@@ -87,7 +116,7 @@
           </div>
         </footer>
       </div>
-    </div> 
+    
 
       <!-- jQuery script -->
       <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>

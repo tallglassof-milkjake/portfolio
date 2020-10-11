@@ -6,19 +6,13 @@ $(document).ready(function() {
     $("#fastApp").css("opacity", 1.0);
     $("#fastApp").hover(function() {
         $(this).animate({opacity: 0.3}, 500);
-        }, function() {
+    }, function() {
         $(this).animate({opacity: 1.0}, 500);
     });
 
-
-    $('#fastApp').on('click', function() {
-        console.log('CLICKED!');
-    });
-
-
     // tomatoTimer Animate settings
-    $("#tomatoTimer").css("opacity", 1.0);
-    $("#tomatoTimer").hover(function() {
+    $("#dayPlanner").css("opacity", 1.0);
+    $("#dayPlanner").hover(function() {
         $(this).animate({opacity: 0.3}, 500);
         }, function() {
         $(this).animate({opacity: 1.0}, 500);
@@ -31,5 +25,6 @@ $(document).ready(function() {
         }, function() {
         $(this).animate({opacity: 1.0}, 500);
     });
+
 
 })

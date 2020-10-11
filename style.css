@@ -81,6 +81,10 @@
     font-family: 'Roboto Mono', monospace;
 }
 
+.my-big-button {
+    width: 200px;
+}
+
 .container {
     height: 100vh;
 }
@@ -140,4 +144,37 @@
 
 #weatherApp {
     cursor: pointer;
+}
+
+.fast1 {
+    width: 80%;
+    justify-self: center !important;
+}
+
+.fast2 {
+    width:80%;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+.emph {
+    color: #0AC0F0;
+}
+
+.planner1 {
+    height: 450px;
+}
+
+.weather1 {
+    width: 90%;
+}
+
+.weather2 {
+    width: 90%;
+}
+
+.weather3 {
+    width: 90%;
 }

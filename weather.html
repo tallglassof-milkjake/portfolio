@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+
+<!--Setting the primary language-->
+<html lang="en">
+  
+  <!--Head section of the page including meta tags, links to styles and bootstrap etc.-->
+  <head>
+    <meta charset="utf-8"> <!--Unicode character standard for web-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Weather</title>
+
+    <!--Bootstrap core CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!--Custom styles-->
+    <link href="style.css" rel="stylesheet" type="text/css">
+
+    <!--Google fonts links-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+  </head>
+  
+  <!--Body section of the page-->
+  <body class="text-center my-body">
+
+    <!--For some reason I run into layout issues when only using one container.. Maybe due to "cover-container" tag-->
+    
+      <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+  
+        <!--Header section-->
+        <header class="masthead mb-auto">
+          <div class="inner">
+            <a href="index.html" class="text-decoration-none">
+              <h3 class="masthead-brand head-jake text-light">Jake Mackinlay</h3>
+            </a>
+              <nav class="nav nav-masthead justify-content-center">
+                <a class="nav-link active cover-link" href="about.html">About</a>
+                <a class="nav-link cover-link" href="portfolio.html">Portfolio</a>
+                <a class="nav-link cover-link" href="contact.html">Contact</a>
+              </nav>
+            </div>
+        </header>
+
+        <div class="wrapper">
+            <div class="main-container">
+                <div class="row">
+                    <div class="col text-center">
+                        <img src="img/landscapeMain.png" class="weather1 pt-5 pb-5">   
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col pb-5">
+                        <h1 class="display-1 text-light pt-4 pb-1">SunnySideUp Weather</h1>
+                        <p class="lead pb-4 text-light">Forecaster</p>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-4">
+                            <p class="text-light text-left">Another project from Full Stack Coding Bootcamp! This time I was tasked with using and
+                                navigating API calls using AJAX. Specifically the API from the openweathermap.org website.</p>
+                                <br>
+                            <p class="text-light text-left">I started this assignment by researching and reading documentation provided by the openweather team.
+                                This gave me the confidence needed to tackle the API calls and understand the way AJAX works. Then I created a basic
+                                layout in HTML and CSS to start, and got to tackling some jQuery functions to grab some info from openweather
+                                and start bringing data to life on the page.</p>
+                                <br>
+                                <p class="text-left text-light">The main section of this application displays current
+                                    weather for the city the user enters. The openweather API handles the temperature 
+                                    in kelvin giving me the opportunity to play with calculations to interpret into
+                                    celsius, with future plans to display in farenheit when in countries that use that 
+                                    particular format. Other data displayed include humidity, temperature 'feels like'
+                                    and wind speeds. It also shows a simple UV indicator dictated by a separate UV index 
+                                    API and some simple CSS and jQuery class manipulation.
+                                </p>
+                                <br>
+                            <img src="img/laptopWeather.png" class="weather3">
+                            
+                        </div>
+                        <div class="col-4">
+                            <img src="img/tabletWeather.png" class="weather2 pt-5 pb-5">
+                            <br>
+                            <p class="text-left text-light">Next up was bringing in the five day forecast. Yet another API
+                                was needed from openweather to fullfil this. It required calculations from the previous kelvin 
+                                to celsius converter explained earlier. Then it was the case of selecting which time of the day 
+                                the forecast data was drawn from and sending to the browser to display.
+                            </p>
+                            <br>
+                            <p class="text-left text-light">Finally, the search bar that is nested in the side bar section was given the 
+                                ability to save searched data to local storage for the ease of the user. This would see the
+                                cities searched display as a list of buttons that can be called upon to assess the weather in those
+                                sections incase the user navigates away from the page or closes the browser.
+                            </p>
+                            <br>
+                            <p class="text-light text-left">There are some future modifications coming such as once the page has loaded
+                                it will immediately display the current weather and forecast for the users location if they have it
+                                turned on. Other modifications will include a more presentable UI, better functionality for local storage
+                                data and the ability to select more weather options including viewing a rain map.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="row contact-button justify-content-center">
+                    <div class="col-2">
+                        <p class="lead pt-2">
+                            <a href="https://tallglassof-milkjake.github.io/Weather_App/" class="btn btn-lg btn-outline-light mt-5 big-button my-big-button mb-md-5">Check It Out!</a>
+                        </p>
+                    </div>
+                    <div class="col1">
+                        <p class="lead pt-3 mt-5 text-light">Or, head to the repo!</p>
+                    </div>
+                    <div class="col-2">
+                        <p class="lead pt-2">
+                            <a href="https://github.com/tallglassof-milkjake/Weather_App" class="btn btn-lg btn-outline-light mt-5 big-button my-big-button mb-md-5">Go To Repo!</a>
+                        </p>
+                    </div>
+                </div>
+            </div> 
+        </div>
+
+        
+        <!--Footer content including active links to social media pages-->
+        <footer class="mastfoot mt-auto mt-sm-5 my-foot">
+          <div class="inner">
+            <a class="text-decoration-none pl-2 pr-2" href="https://www.facebook.com/profile.php?id=100009225831081" target="blank">
+              <span style="font-size: 48px; color: #3b5998;">
+                <i class="fab fa-facebook"></i>
+              </span>
+            </a>
+            <a class="text-decoration-none pl-2 pr-2" href="https://github.com/tallglassof-milkjake" target="blank">
+              <span style="font-size: 48px; color: #fafafa;">
+                <i class="fab fa-github"></i>
+              </span>
+            </a>
+            <a class="text-decoration-none pl-2 pr-2" href="https://www.linkedin.com/in/jake-mackinlay-1a5865157/" target="blank">
+              <span style="font-size: 48px; color: #0e76a8;">
+                <i class="fab fa-linkedin"></i>
+              </span>
+            </a>
+            <p>Copyright &copy Jake Mackinlay 2020</p>
+          </div>
+        </footer>
+      </div>
+    
+
+      <!-- jQuery script -->
+      <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+      <!-- local script -->
+      <script src="script.js"></script>
+      <!--Font awesome link-->
+      <script src="https://kit.fontawesome.com/b86300fd7f.js" crossorigin="anonymous"></script>
+      <!--javascript bootstrap links with jQuery removed-->
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+  </body>
+</html>
