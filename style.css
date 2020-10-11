@@ -129,3 +129,15 @@
     padding-left: 1em;
     padding-right: 1em;
 }
+
+#fastApp {
+    cursor: pointer;
+}
+
+#tomatoTimer {
+    cursor: pointer;
+}
+
+#weatherApp {
+    cursor: pointer;
+}

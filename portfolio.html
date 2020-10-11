@@ -97,16 +97,24 @@
         <hr>
 
         <!--Individual project cards (will link to relevant pages once created)-->
-        <div class="row pt-5">
-          <img class="d-block w-100" src="img/multiMockFast.png" alt="Faster - Intermittent Fasting Application">
-        </div>
-        <div class="row">
-          <img class="d-block w-100" src="img/pomodoroMockDark.png" alt="Pomodoro - Tomato Timer">
-        </div>
-        <div class="row">
-          <img class="d-block w-100" src="img/weather.png" alt="SunnySideUp Weather - A weather App">
-        </div>
-
+          <div class="row pt-5">
+            <a id="fastApp" class="stretched-link">
+              <img class="d-block w-100" src="img/multiMockFast.png" alt="Faster - Intermittent Fasting Application">
+            </a>
+          </div>
+        
+          <div class="row">
+            <a id="tomatoTimer" class="stretched-link">
+              <img class="d-block w-100" src="img/pomodoroMockDark.png" alt="Pomodoro - Tomato Timer">
+            </a>
+          </div>
+        
+          <div class="row">
+            <a id="weatherApp">
+              <img class="d-block w-100" src="img/weather.png" alt="SunnySideUp Weather - A weather App">
+            </a>
+          </div>
+        
         <!--Footer content including active links to social media pages-->
         <footer class="mastfoot mt-auto mt-sm-5">
           <div class="inner">
@@ -131,14 +139,13 @@
       </div>
     </div> 
 
-
-
-
+      <!-- jQuery script -->
+      <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+      <!-- local script -->
+      <script src="script.js"></script>
       <!--Font awesome link-->
       <script src="https://kit.fontawesome.com/b86300fd7f.js" crossorigin="anonymous"></script>
-      
-      <!--javascript bootstrap links-->
-      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <!--javascript bootstrap links with jQuery removed-->
       <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
