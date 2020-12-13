@@ -7,7 +7,7 @@
   <head>
     <meta charset="utf-8"> <!--Unicode character standard for web-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Portfolio</title>
+    <title>Scheduler</title>
 
     <!--Bootstrap core CSS-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
@@ -24,7 +24,7 @@
   <body class="text-center my-body">
 
     <!--For some reason I run into layout issues when only using one container.. Maybe due to "cover-container" tag-->
-    <div class="container d-flex flex-column">
+    
       <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
   
         <!--Header section-->
@@ -41,55 +41,62 @@
             </div>
         </header>
 
-        <!--Big heading-->
-        <h2 class="display-3 my-info-display text-light pt-4 medium-display pb-3">My work</h2>
-        <p class="info-p text-light mb-4">Check out some of my work to date! I hope you like it!</p>
-        <hr class="pb-5">
+        <div class="wrapper">
+            <div class="main-container">
+                <div class="row justify-content-center">
+                    <div class="col text-center">
+                        <h1 class="display-1 medium-display text-light pt-4 pb-1">Fresh Veg</h1>
+                        <!-- <p class="lead pb-4 text-light">A Day Planner</p> -->
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-md-5">
+                        <img class="planner1 img-fluid" src="img/FreshCar.jpg">
+                    </div>
+                    <div class="col-md-5 text-left">
+                        <p class="text-light">One of my assignments from the Full Stack Coding Bootcamp was to practice using
+                            jQuery, moment.js, DOM manipulation and the use of local storage and create a simple day 
+                            scheduler.
+                            <br>
+                            To understand the basics of moment.js I used DOM manipulation
+                            to take in the local current time and display each hour block in a colour depending
+                            on the time. Green for upcoming, Blue for current and Grey to display the previous hours.
+                        </p>
+                        <br>
+                        <p class="text-light">For the local storage aspect of this task I used JSON parse and JSON stringify
+                            to push and pull data from local storage and then a little DOM manipulation to throw it into 
+                            corresponding time blocks for that day.
+                        </p>
+                        <br>
+                        <p class="text-light">This application has some updates coming. More presentable UI, better use of local storage,
+                            the ability to plan ahead much like with a calendar and more!
+                        </p>
+                    </div>
+                </div>
 
-        <!--Individual project cards (will link to relevant pages once created)-->
-          <div id="fastDiv" class="row">
-            <a id="fastApp" class="" href="faster.html" target="blank">
-              <img class="d-block w-100" src="img/multiMockFast.png" alt="Faster - Intermittent Fasting Application">
-              <h3 class="display-4">Fasting App</h3>
-              <p class="lead">For this project we created a fasting tracker with a basic BMI calculator 
-                and a calorie counter.
-              </p>
-            </a>
-            
-          </div>
+
+
+                <div class="row contact-button justify-content-center">
+                    <div class="col-md-2">
+                        <p class="lead pt-2">
+                            <a href="https://afternoon-waters-14450.herokuapp.com/" class="btn btn-lg btn-outline-light mt-5 big-button my-big-button mb-md-5">Check It Out!</a>
+                        </p>
+                    </div>
+                    <div class="col-md-1">
+                        <p class="lead pt-3 mt-5 text-light">Or, head to the repo!</p>
+                    </div>
+                    <div class="col-md-2">
+                        <p class="lead pt-2">
+                            <a href="https://github.com/tallglassof-milkjake/fresh_veg" class="btn btn-lg btn-outline-light mt-5 big-button my-big-button mb-md-5">Go To Repo!</a>
+                        </p>
+                    </div>
+                </div>
+            </div> 
+        </div>
+
         
-          <div id="plannerDiv" class="row">
-            <a id="dayPlanner" class="" href="planner.html" target="blank">
-              <img class="d-block w-100" src="img/laptopPlanner.png" alt="Scheduler - A day planner">
-              <h3 class="display-4">Day Planner</h3>
-              <p class="lead">This is a simple day-planner application using local storage to keep
-                track of daily tasks.
-              </p>
-            </a>
-          </div>
-        
-          <div id="weatherDiv" class="row">
-            <a id="weatherApp" href="weather.html">
-              <img class="d-block w-100" src="img/weather.png" alt="SunnySideUp Weather - A weather App">
-              <h3 class="display-4">Weather App</h3>
-              <p class="lead">A nice and easy to use application to view the weather anywhere in the world
-                using the 'open weather' api and also save it to your local storage for access later on.
-              </p>
-            </a>
-          </div>
-        
-          <div id="vegDiv" class="row">
-            <a id="vegApp" href="veg.html">
-              <img class="d-block w-100" src="img/darkervegedge.png" alt="FreshVeg - A vegetable app">
-              <h3 class="display-4">Fresh Veg</h3>
-              <p class="lead">Bringing farm fresh produce direct to you. No more middle-man! No more stale 
-                supermarket produce! Order straight from the farms in your area! Picked fresh and couriered 
-                straight to you or your business.
-              </p>
-            </a>
-          </div>
         <!--Footer content including active links to social media pages-->
-        <footer class="mastfoot mt-auto mt-sm-5">
+        <footer class="mastfoot mt-auto mt-sm-5 my-foot">
           <div class="inner">
             <a class="text-decoration-none pl-2 pr-2" href="https://www.facebook.com/profile.php?id=100009225831081" target="blank">
               <span style="font-size: 48px; color: #3b5998;">
@@ -110,7 +117,7 @@
           </div>
         </footer>
       </div>
-    </div> 
+    
 
       <!-- jQuery script -->
       <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>

@@ -26,5 +26,11 @@ $(document).ready(function() {
         $(this).animate({opacity: 1.0}, 500);
     });
 
+    $("#vegApp").css("opacity", 1.0);
+    $("#vegApp").hover(function() {
+        $(this).animate({opacity: 0.3}, 500);
+        }, function() {
+        $(this).animate({opacity: 1.0}, 500);
+    });
 
 })
