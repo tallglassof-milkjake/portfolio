@@ -197,3 +197,31 @@ a:hover {
 .weather3 {
     width: 90%;
 }
+
+.veg1 {
+    width: 75%;
+}
+
+.veg2 {
+    width: 90%;
+    align-self: center;
+}
+
+.paraVeg {
+    width: 90%;
+}
+
+.contributorList {
+    list-style: none;
+    color: white;
+    
+}
+
+.portfoilioDescriptor {
+    color: #0AC0F0;
+    font-family: 'Open Sans', sans-serif;;
+}
+
+.portfoilioDescriptor:hover {
+    color: #93E8FF;
+}

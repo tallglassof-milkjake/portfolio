@@ -7,7 +7,7 @@
   <head>
     <meta charset="utf-8"> <!--Unicode character standard for web-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Scheduler</title>
+    <title>Fresh Veg</title>
 
     <!--Bootstrap core CSS-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
@@ -43,7 +43,7 @@
 
         <div class="wrapper">
             <div class="main-container">
-                <div class="row justify-content-center">
+                <div class="row justify-content-center pb-5">
                     <div class="col text-center">
                         <h1 class="display-1 medium-display text-light pt-4 pb-1">Fresh Veg</h1>
                         <!-- <p class="lead pb-4 text-light">A Day Planner</p> -->
@@ -51,26 +51,47 @@
                 </div>
                 <div class="row justify-content-center">
                     <div class="col-md-5">
-                        <img class="planner1 img-fluid" src="img/FreshCar.jpg">
+                        <img class="veg1 img-fluid pb-5" src="img/FreshCar.jpg">
+
+                        <h3 class="display-4 text-light">Contributors</h3>
+                        <p class="text-light">Check out their github repo's here!</p>
+                        <ul class="contributorList text-center">
+                            <li><a href="https://github.com/tallglassof-milkjake" class="text-decoration-none cover-link pb-2">Jake</a></li>
+                            <li><a href="https://github.com/xenonth" class="text-decoration-none cover-link pb-2">Tim</a></li>
+                            <li><a href="https://github.com/arurian" class="text-decoration-none cover-link pb-2">Arun</a></li>
+                            <li><a href="https://github.com/Ningthangom" class="text-decoration-none cover-link pb-2">Angelo</a></li>
+                        </ul>
                     </div>
                     <div class="col-md-5 text-left">
-                        <p class="text-light">One of my assignments from the Full Stack Coding Bootcamp was to practice using
-                            jQuery, moment.js, DOM manipulation and the use of local storage and create a simple day 
-                            scheduler.
+                        <p class="text-light paraVeg">At about a 3rd of the way through bootcamp, we started our 2nd assignment.
+                            I was grouped with three other aspiring developers who I will link below so definetely go
+                            and check out what they've been up to!
+                        </p>
+                        <p class="text-light paraVeg">
+                            We started with an idea. <b><i>Fresh Veg</i></b> is designed to help restuarants, cafes and other
+                            businesses within the hospitality industry get their fresh produce direct from farmers around their
+                            area. This idea not only cuts out the middle-man, bringing down the exuberant costs of fresh
+                            produce from 3rd party suppliers, but it also drastically increases the possible profitability 
+                            for local farmers! Who are just trying to make an honest dollar.
+                        </p>
+                        <p class="text-light paraVeg">This project started with the creation of the database. We used
+                            MySQL. Once we had a database in place we developed a quick and easy Node app used to do 
+                            database manipulation for our purposes as well as being an option in future development
+                            for the farmers to use to update their produce if they are looking for a more affordable option.
+                            Before we used the node app to populate the database we had to host it on Heroku.
                             <br>
-                            To understand the basics of moment.js I used DOM manipulation
-                            to take in the local current time and display each hour block in a colour depending
-                            on the time. Green for upcoming, Blue for current and Grey to display the previous hours.
+                            Once the database was created and populated and the Heroku hosting was done we got to writing out
+                            our Sequelize control of the database and the basics to our routing to get it all ready to render.
                         </p>
-                        <br>
-                        <p class="text-light">For the local storage aspect of this task I used JSON parse and JSON stringify
-                            to push and pull data from local storage and then a little DOM manipulation to throw it into 
-                            corresponding time blocks for that day.
+                        
+                        <p class="text-light pb-5 paraVeg">After getting those parts under control we moved onto building out 
+                            our express-handlebars templates and started getting data rendered through to the client. 
+                            Once we successfully got all of these parts done we done some light styling and then got started 
+                            on our presentation.
                         </p>
-                        <br>
-                        <p class="text-light">This application has some updates coming. More presentable UI, better use of local storage,
-                            the ability to plan ahead much like with a calendar and more!
-                        </p>
+                        
+                        <img class="img-fluid veg2 pb-5" src="img/FreshVeg.jpg">
+
                     </div>
                 </div>
 
